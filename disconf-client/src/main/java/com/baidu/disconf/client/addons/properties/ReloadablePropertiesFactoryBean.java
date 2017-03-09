@@ -68,6 +68,9 @@ public class ReloadablePropertiesFactoryBean extends PropertiesFactoryBean imple
             //
             // only properties will reload
             //
+            
+            //properties文件也不需要reload  --gkk 20170306
+        /**   
             String ext = FilenameUtils.getExtension(filename);
             if (ext.equals("properties")) {
 
@@ -82,6 +85,8 @@ public class ReloadablePropertiesFactoryBean extends PropertiesFactoryBean imple
                     e.printStackTrace();
                 }
             }
+           **/ 
+            
         }
 
         this.locations = resources.toArray(new Resource[resources.size()]);

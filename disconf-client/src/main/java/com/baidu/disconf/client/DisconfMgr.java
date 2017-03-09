@@ -165,7 +165,7 @@ public class DisconfMgr implements ApplicationContextAware {
                 LOGGER.info("Conf Item Map: {}", data);
             }
         }
-        LOGGER.info("******************************* DISCONF END *******************************");
+        LOGGER.info("******************************* DISCONF END SECOND SCAN *******************************");
     }
 
     /**

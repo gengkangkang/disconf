@@ -25,14 +25,10 @@
                     </button>
                     <div class="nav-collapse collapse">
 
-                        <a id="brand_url" href="/main.html" class="brand" style="margin-left:0px;padding:8px;"> <span class="zu-top-nav-link">Disconf</span> </a>
+                        <a id="brand_url" href="/main.html" class="brand" style="margin-left:0px;padding:8px;"> <span class="zu-top-nav-link">CMIG-配置管理平台</span> </a>
 
                         <span class="span2"> </span>
-                        <form class="navbar-form pull-left">
-                            <button class="btn btn-warning" title="GitHub" type="button" style=""  onclick="window.open('https://github.com/knightliao/disconf', '_blank');">
-                                <i class="icon-circle-arrow-up  icon-white"></i> <b>GitHub</b>
-                            </button>
-                        </form>
+
                         
                         <ul class="nav pull-right" >
                             
